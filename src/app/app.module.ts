@@ -9,13 +9,17 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from "@angular/common/http";
 import {ReactiveFormsModule } from "@angular/forms";
+import { ForgotpasswordComponent } from './forgotpassword/forgotpassword.component';
+import { SendmailComponent } from './sendmail/sendmail.component';
   @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     RegistrationComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    ForgotpasswordComponent,
+    SendmailComponent
   ],
   imports: [
     BrowserModule,
